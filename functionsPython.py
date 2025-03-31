@@ -54,11 +54,14 @@ def calculator_radius(radius):
     print(f"Area of Circle = {GREEN}{PI * radius ** 2}{RESET}")  
     print(f"Square Root of Radius = {MAGENTA}{math.sqrt(radius)}{RESET}")  
 
-if __name__ == "__main__":
-    getUserRadius = float(input("Submit radius? "))
-    calculator_radius(getUserRadius)
-'''
+def main():
+        getUserRadius = float(input("Submit radius? "))
+        calculator_radius(getUserRadius)
 
+
+if __name__ == "__main__":
+    main()
+'''
 
 #area calculator func return
 
